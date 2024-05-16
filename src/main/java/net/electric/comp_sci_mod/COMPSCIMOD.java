@@ -1,6 +1,8 @@
 package net.electric.comp_sci_mod;
 
 import com.mojang.logging.LogUtils;
+import net.electric.comp_sci_mod.block.ModBlocks;
+import net.electric.comp_sci_mod.item.ModCreativeModTabs;
 import net.electric.comp_sci_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,7 +32,10 @@ public class COMPSCIMOD
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -56,6 +61,7 @@ public class COMPSCIMOD
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
         }
 
     }
