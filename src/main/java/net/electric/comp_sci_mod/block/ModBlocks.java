@@ -19,6 +19,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,COMPSCIMOD.MOD_ID);
 
     public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",() -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> RAW_SAPPHIRE_BLOCK = registerBlock("raw_sapphire_block",()-> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)));
+    public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",() -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
