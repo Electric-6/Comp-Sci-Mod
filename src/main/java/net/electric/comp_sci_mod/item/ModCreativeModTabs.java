@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get())).title(net.minecraft.network.chat.Component.literal("Mod Stuff"))
                     .displayItems((pParameters, pOutput) -> {
 
+                        //sapphire
                         pOutput.accept(ModItems.SAPPHIRE.get());
 
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
@@ -32,9 +33,20 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
 
-                        pOutput.accept(ModItems.GRAPPLER.get());
+                        //pOutput.accept(ModItems.GRAPPLER.get());
 
-                        pOutput.accept(ModItems.GOLD_BAND.get());
+                        //pOutput.accept(ModItems.GOLD_BAND.get());
+
+                        //ruby
+                        pOutput.accept(ModItems.RUBY.get());
+
+                        pOutput.accept(ModItems.RAW_RUBY.get());
+
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.RAW_RUBY_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.RUBY_ORE.get());
 
                     })
                     .build());

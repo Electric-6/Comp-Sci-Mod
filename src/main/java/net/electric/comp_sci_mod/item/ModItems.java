@@ -11,8 +11,13 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, COMPSCIMOD.MOD_ID);
 
+    //gem items
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",() -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",()->new Item(new Item.Properties()));
+
+    //raw items
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",()-> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> GOLD_BAND = ITEMS.register("gold_band",()->new Item((new Item.Properties())));
 

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "comp_sci_mod:block/ruby_block"
+    }
+  }
+}

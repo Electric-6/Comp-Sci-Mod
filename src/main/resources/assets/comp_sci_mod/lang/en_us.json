@@ -3,6 +3,11 @@
   "block.comp_sci_mod.sapphire_block": "Block of Sapphire",
   "item.comp_sci_mod.raw_sapphire" : "Raw Sapphire",
   "block.comp_sci_mod.raw_sapphire_block": "Block of Raw Sapphire",
-  "block.comp_sci_mod.sapphire_ore": "Sapphire Ore"
+  "block.comp_sci_mod.sapphire_ore": "Sapphire Ore",
+  "item.comp_sci_mod.ruby":"Ruby",
+  "item.comp_sci_mod.raw_ruby": "Raw Ruby",
+  "block.comp_sci_mod.ruby_block": "Block of Ruby",
+  "block.comp_sci_mod.raw_ruby_block":"Block of Raw Ruby",
+  "block.comp_sci_mod.ruby_ore":"Ruby Ore"
 
 }

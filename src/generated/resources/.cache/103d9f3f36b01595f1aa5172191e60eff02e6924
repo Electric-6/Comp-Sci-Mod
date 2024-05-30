@@ -1,0 +1,7 @@
+// 1.20.1	2024-05-30T10:50:40.3241371	Registries
+8c3541577fd7600df3dd4a306c4309b451abe216 data/comp_sci_mod/forge/biome_modifier/add_ruby_ore.json
+2e80061449b6adf37103620bfbf6c3473b4a1483 data/comp_sci_mod/forge/biome_modifier/add_sapphire_ore.json
+9775a63aaa42e18ee6afe184671760efa19f771e data/comp_sci_mod/worldgen/configured_feature/ruby_ore.json
+ac79e75961f260d606281a83aa3fcfc1a4d78c0a data/comp_sci_mod/worldgen/configured_feature/sapphire_ore.json
+8edc5aa9c7f4c8b0e7aa42697f258fe556c7731c data/comp_sci_mod/worldgen/placed_feature/ruby_ore_placed.json
+822b5ec8b20573ede7a5692c26f59cb4166e3a15 data/comp_sci_mod/worldgen/placed_feature/sapphire_ore_placed.json
