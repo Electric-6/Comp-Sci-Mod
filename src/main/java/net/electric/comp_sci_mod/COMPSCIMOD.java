@@ -37,8 +37,6 @@ public class COMPSCIMOD
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        // Register the commonSetup method for modloading
-        modEventBus.addListener(this::commonSetup);
 
 
 

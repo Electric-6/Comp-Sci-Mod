@@ -18,6 +18,10 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_SAPPHIRE_ORE = registerKey("add_sapphire_ore");
     public static final ResourceKey<BiomeModifier> ADD_RUBY_ORE = registerKey("add_ruby_ore");
 
+    public static final ResourceKey<BiomeModifier> ADD_RAW_RUBY = registerKey("add_raw_ruby");
+
+    public static final ResourceKey<BiomeModifier> ADD_RAW_SAPPHIRE = registerKey("add_raw_sapphire");
+
     public static void bootstrap(BootstapContext<BiomeModifier> context){
         var placedFeatures = context.lookup(Registries.PLACED_FEATURE);
         var biomes = context.lookup(Registries.BIOME);
@@ -28,6 +32,14 @@ public class ModBiomeModifiers {
 
         context.register(ADD_RUBY_ORE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RUBY_ORE_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_RAW_RUBY, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RAW_RUBY_BLOCK_PLACED_KEY)),
+                GenerationStep.Decoration.UNDERGROUND_ORES));
+
+        context.register(ADD_RAW_SAPPHIRE, new ForgeBiomeModifiers.AddFeaturesBiomeModifier(
+                biomes.getOrThrow(BiomeTags.IS_OVERWORLD), HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.RAW_SAPPHIRE_BLOCK_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
     }
 

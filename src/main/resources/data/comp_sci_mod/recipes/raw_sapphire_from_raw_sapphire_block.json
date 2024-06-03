@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 9,
+  "ingredient": {
+    "item": "comp_sci_mod:raw_sapphire_block"
+  },
+  "result": "comp_sci_mod:raw_sapphire"
+}

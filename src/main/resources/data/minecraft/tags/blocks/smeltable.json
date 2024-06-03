@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ore",
+    "minecraft:gold_ore",
+    "minecraft:copper_ore",
+    "comp_sci_mod:sapphire_ore",
+    "comp_sci_mod:ruby_ore"
+  ]
+}
