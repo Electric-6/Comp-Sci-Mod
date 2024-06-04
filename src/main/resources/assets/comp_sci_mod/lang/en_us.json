@@ -8,6 +8,7 @@
   "item.comp_sci_mod.raw_ruby": "Raw Ruby",
   "block.comp_sci_mod.ruby_block": "Block of Ruby",
   "block.comp_sci_mod.raw_ruby_block":"Block of Raw Ruby",
-  "block.comp_sci_mod.ruby_ore":"Ruby Ore"
+  "block.comp_sci_mod.ruby_ore":"Ruby Ore",
+  "enchantment.comp_sci_mod.auto_smelter": "Auto Smelt"
 
 }
